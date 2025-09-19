@@ -1,0 +1,21 @@
+// Ingenieur Max_Adis
+// Faire clignoter deux leds succesivement
+
+const int led_1 = 2;
+const int led_2 = 3;
+
+void setup () {
+pinMode(led_1,OUTPUT);
+pinMode(led_1,OUTPUT);
+}
+
+void loop () {
+digitalWrite(Led_1,HIGH);
+delay(1000);
+digitalWrite(Led_1,LOW);
+delay(1000);
+digitalWrite(Led_2,HIGH);
+delay(1000);
+digitalWrite(Led_2,LOW);
+delay(1000);
+}
